@@ -1,0 +1,35 @@
+.Snack {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.Snack h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.snack-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.Snack p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.Snack a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}

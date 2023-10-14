@@ -1,0 +1,39 @@
+.VendingMachine {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.VendingMachine h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.vending-machine-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.VendingMachine ul {
+    list-style: none;
+    padding: 0;
+}
+
+.VendingMachine li {
+    margin-bottom: 10px;
+}
+
+.VendingMachine a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
